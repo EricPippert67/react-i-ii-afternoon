@@ -41,7 +41,54 @@
 .App-link {
   color: #61dafb;
 }
+.Card-counter{
+  display: flex;
+  justify-content: space-between;
+}
+.employee-name{
+  display: flex;
+  justify-content: center;
+  font: large;
 
+}
+.Card-1{
+  
+display: flex;
+}
+.From{
+  font: large
+}
+.City-country{
+  font: medium;
+}
+.Card-2{
+  display: flex;
+}
+.job-title{
+  font: large;
+}
+.title{
+  font: medium;
+
+}
+.Card-3{
+  display: flex;
+}
+.Employer{
+  font: large;
+}
+.Employer-name{
+  font: medium
+}
+.Card-4{
+  display: flex;
+}
+.Favorite{
+  font: large;
+}
+.Favorite-movie{
+  font: medium;
+}
 .Card{
   background-color:white;
   height: 500px;

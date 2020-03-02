@@ -43,7 +43,9 @@ class App extends Component{
 
 
         <div className='Card'>
-       <Card info={this.state.data[this.state.index]}/>
+       <Card info={this.state.data[this.state.index]}
+       index={this.state.index}
+       data={this.state.data}/>
        </div>
 
         <div>
