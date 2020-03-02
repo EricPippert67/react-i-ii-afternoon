@@ -43,51 +43,74 @@
 }
 .Card-counter{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+
 }
 .employee-name{
   display: flex;
   justify-content: center;
-  font: large;
+  font-size: 50px;
+  align-content: flex-end;
+  font-style: italic;
 
 }
 .Card-1{
-  
-display: flex;
+  display: flex;
+  margin-top: 15px;
 }
 .From{
-  font: large
+  font-size: 1em;
+  font-style: oblique;
+  
 }
 .City-country{
+  margin-left: 14%;
   font: medium;
+  justify-content: flex-end;
 }
 .Card-2{
   display: flex;
+  box-sizing: border-box;
+  margin-top: 15px;
+  
 }
 .job-title{
-  font: large;
+  font-size: 1em;
+  font-style: oblique;
+  
+  
 }
 .title{
   font: medium;
-
+  justify-content: flex-end;
+  margin-left: 10%;
 }
 .Card-3{
   display: flex;
+  margin-top: 15px;
 }
 .Employer{
-  font: large;
+  font-size: 1em;
+  font-style: oblique;
 }
 .Employer-name{
-  font: medium
+  font: medium;
+  justify-content: flex-end;
+  margin-left: 9%;
 }
 .Card-4{
   display: flex;
+  margin-top: 15px;
 }
 .Favorite{
-  font: large;
+  font-size: 25px;
+  font-style: oblique;
 }
 .Favorite-movie{
-  font: medium;
+  font-size: 25px;
+  justify-content: flex-end;
+  margin-left: 8%;
+
 }
 .Card{
   background-color:white;
@@ -98,6 +121,7 @@ display: flex;
   flex-direction: column;
 }
 .Button1{
+  box-sizing: border-box;
   margin-top: 5em;
   justify-content: space-between;
   background-color: white;

@@ -11,8 +11,8 @@ import '../App.css'
                 <h1> {props.index +1} / {props.data.length-1}</h1>
             </div>
             <div className='Card-1'>
-                <h1 className='From'>From: </h1>                    
-                <h1 className='City-country'>{props.info.city}, {props.info.country} </h1>
+                <h1 className='From'>From:</h1>
+                <h1 className='City-country'> {props.info.city}, {props.info.country} </h1>
             </div>
             
             <div className='Card-2'>
